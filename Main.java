@@ -1,42 +1,41 @@
 public class Main {
-    public static void main(String[] args) {
-        //instanciacion, creacion de objetos
-        //Constructor crea. Destructor destruye, xd
-
+    public static void main(String[] args){
         //Declaraciones
-        Automovil auto1 = new Automovil(); //Creo un nuevo objeto de class autmovil//Creo un constructor que crea un espacio de memoria a un objeto
-        Automovil auto2 = new Automovil();
-        Bicicleta bici1 = new Bicicleta();
+            Motocicletas moto1=new Motocicletas();
+            Motocicletas moto2=new Motocicletas();
+            Motocicletas moto3=new Motocicletas();
+            Motocicletas moto4=new Motocicletas();
+            Motocicletas moto5=new Motocicletas();
+        //Asignacion de Atributos
+            moto1.marca="Honda";
+            moto1.modelo="Cbr300r";
+            moto1.cilindraje=299.5;
+            moto1.color="Rojo";
 
-        //Asignación de datos a los atributos
-        auto1.marca="Aston Martin";
-        auto1.modelo="Vantage";
-        auto1.color="Verde";
-        auto1.cilindraje=4.0;
+            moto2.marca="KTM";
+            moto2.modelo="Duke 300";
+            moto2.cilindraje=299.5;
+            moto2.color="Naranja";
 
-        auto2.marca="Ferrari";
-        auto2.modelo="488 Italia";
-        auto2.color="Rojo";
-        auto2.cilindraje=6.0;
+            moto3.marca="Royal Einfield";
+            moto3.modelo="Himalayan";
+            moto3.cilindraje=299.5;
+            moto3.color="Gris";
 
-        //Asignacion de datos a la nueva clase y nuevo objeto
-        bici1.color="Negra";
-        bici1.marcaSuspension="Suntour";
-        bici1.marca="GW";
-        bici1.modelo="Ocelot";
-        bici1.numSuspenciones=2;
+            moto4.marca="Cf Moto";
+            moto4.modelo="300 sR";
+            moto4.cilindraje=299.5;
+            moto4.color="Blanca";
+            //Salidas
 
-        //Salidas
-        auto1.detalle();
-        auto2.detalle();
-
- /*       System.out.println("Datos del objeto auto2 - Clase Vehículo");
-        System.out.println("Marca: "+ auto2.marca);
-        System.out.println("Modelo: "+ auto2.modelo);
-        System.out.println("Color: "+ auto2.color);
-        System.out.println("Cilindraje: "+ auto2.cilindraje);
-*/
+            moto1.detalle();
+            moto2.detalle();
+            moto3.detalle();
+            moto4.detalle();
+            moto5.detalle();
 
 
     }
+
+
 }
